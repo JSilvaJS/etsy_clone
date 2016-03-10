@@ -1,0 +1,28 @@
+/* CSS Entry Point */
+
+$side-bar-width: 300px;
+
+* {
+	box-sizing: border-box; 
+	margin: 0px;
+}
+
+body {
+	margin: 0px;
+	background-color: darken(white, 5%);
+}
+
+.app {
+	margin: auto;
+}
+
+.full_header, .footer {
+	background-color: white;
+	padding: 50px;
+	width: 1425px;
+	height: 125px;
+}
+
+.main {
+
+}
