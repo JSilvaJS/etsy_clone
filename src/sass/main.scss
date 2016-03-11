@@ -1,7 +1,13 @@
 /* CSS Entry Point */
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
 
 * {
-	box-sizing: border-box; 
+	box-sizing: border-box;
+	margin: 0; 
 }
 
 .top_header {
@@ -9,7 +15,7 @@
 	display: inline-block;
 	top: 0;
 	left: 0;
-	height: 80px;
+	height: 81px;
 	width: 100%;
 	border-bottom: 1px solid gray;
 }
@@ -20,7 +26,9 @@ input {
 	width: 258px;
 	height: 34px;
 	top: 23px;
-	left: 310px;
+	left: 330px;
+	border-top-left-radius: 3px;
+  	border-bottom-left-radius: 3px;
 }
 
 .top_button {
@@ -35,7 +43,7 @@ input {
 	white-space: nowrap;
 	width: 79px;
 	height: 34px;
-	left: 567px;
+	left: 587px;
 	top: 23px;
 	background-color: #34A8C4;
 	color: white;
@@ -49,26 +57,85 @@ input {
 	display: inline-block;
 	width: 100px;
 	height: 70%;
-	left: 204px;
+	left: 224px;
 	top: 15px;
 	right: 165px;
 	bottom: 25px;
 }
 
+.sell_on_etsy {
+	position: absolute;
+	left: 912px;
+	top: 30px;
+	font-size: 14px;
+	color: #0192B5;
+}
+
+.register {
+	position: absolute;
+	left: 1006px;
+	top: 30px;
+	font-size: 14px;
+	color: #0192B5;
+}
+
+.sign_in {
+	position: absolute;
+	left: 1079px;
+	top: -4px;
+	font-size: 14px;
+	color: #0192B5;
+	line-height: 16px;
+	display: block;
+	font-size: 14px;
+	border: 1px solid #0192B5;
+	box-sizing: border-box; 
+	margin-top: 23px;
+	margin-right: 18px;
+	padding: 8px;
+	border-radius: 3px;
+}
+
 .bottom_header {
 	position: absolute;
 	width: 100%;
-	height: 45px;
+	height: 124px;
 	margin: auto;
-	// justify-content: space-around;
 	border-bottom: 1px solid gray;
 	padding: 20px;
 	padding-bottom: -10px;
 }
 
 .bh_text {
+	position: relative;
 	padding-bottom: 15px;
 	padding-left: -20px;
+	display: inline;
+ 	left: 211px;
+  	top: 74px;
+ 	padding-left: 14px;
+ 	color: #777;
+
+}
+
+.cart {
+	position: absolute;
+	font-size: 14px;
+	display: block;
+  	top: 54px;
+  	left: 1173px;
+	color: #656565;;
+}
+
+
+.cart_logo {
+	background: url(http://i.imgur.com/AHQa7Ig.png) no-repeat 0 -1px;
+ 	background-size: 28px 28px;
+  	width: 34px;
+  	height: 28px;
+  	position: absolute;
+  	top: 21px;
+  	left: 1168px;
 }
 
 
