@@ -20,6 +20,8 @@ var etsyProdHtml = etsyProducts.map(function(product) {
       <div class="price">$${price}</div>
       <div class="shopName">${shopName}</div>
       <div class="title">${title}</div>
+      <div class="hamburger"></div>
+      <div class="heart"></div> 
     </div>
   `;
 });
